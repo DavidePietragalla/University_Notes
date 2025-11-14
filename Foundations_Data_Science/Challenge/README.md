@@ -69,3 +69,15 @@ Both models are evaluated on Training AUC, Validation Accuracy, Validation AUC, 
    COMPETITION_NAME = 'fds-pokemon-battles-prediction-2025'
    # Update this path to point to your data directory
    DATA_PATH = os.path.join('/content/drive/MyDrive', COMPETITION_NAME) # Example for Google Drive
+
+4. **Execute Notebook:** Run all cells in `challenge_FDS.ipynb` to process the data, train the models, and generate the submission files.
+
+## Submission
+
+Running the notebook will produce two files:
+
+* `submission1.csv`: Predictions from the Logistic Regression model.
+
+* `submission3.csv`: Predictions from the Gradient Boosting Classifier.
+
+These files can be directly uploaded to the competition's submission page.
