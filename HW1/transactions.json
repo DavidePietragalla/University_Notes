@@ -1,0 +1,47 @@
+{
+  "transactions": [
+    {
+      "users": [
+        { "id": 1, "name": "Damareau" },
+        { "id": 2, "name": "Oswald" }
+      ],
+      "accounts": [
+        { "id": 101, "owner_id": 1, "balance": 500 },
+        { "id": 102, "owner_id": 2, "balance": 100 }
+      ],
+      "actions": [
+        { "id": 101, "method": { "name": "withdraw", "input": [100] } },
+        { "id": 102, "method": { "name": "deposit", "input": [100] } }
+      ]
+    },
+    {
+      "users": [
+        { "id": 3, "name": "Cassandra" },
+        { "id": 4, "name": "Chester" }
+      ],
+      "accounts": [
+        { "id": 103, "owner_id": 3, "balance": 20 },
+        { "id": 104, "owner_id": 4, "balance": 50 }
+      ],
+      "actions": [
+        { "id": 103, "method": { "name": "withdraw", "input": [100] } },   
+        { "id": 104, "method": { "name": "deposit", "input": [-20] } }     
+      ]
+    },
+    {
+      "users": [
+        { "id": 5, "name": "Hadamard" },
+        { "id": 6, "name": "Damgard" }
+      ],
+      "accounts": [
+        { "id": 105, "owner_id": 5, "balance": 1000 },
+        { "id": 106, "owner_id": 6, "balance": 700 }
+      ],
+      "actions": [
+        { "id": 105, "method": { "name": "withdraw", "input": [300] } },   
+        { "id": 106, "method": { "name": "deposit", "input": [300] } }     
+      ]
+    }
+  ]
+}
+
